@@ -1,0 +1,116 @@
+.contact {
+  background: radial-gradient(#fff, #ffd6d6);
+}
+.contact .form-template {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact .form {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  background: wheat;
+  max-width: 480px;
+  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 5px solid #c98989;
+  border-radius: 23px 23px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 3rem 5rem;
+  animation: bounce 1.5s infinite;
+}
+.name {
+  background-color: #ebebeb;
+  height: 2em;
+}
+.name:hover {
+  border-bottom: 5px solid #ff523b;
+  height: 30px;
+  width: 280px;
+  transition: ease 0.5s;
+}
+.form h1,
+h2 {
+  display: block;
+  font-family: sans-serif;
+  margin: 10px auto 5px;
+  width: 300px;
+}
+.email {
+  background-color: #ebebeb;
+  height: 2em;
+}
+
+.email:hover {
+  border-bottom: 5px solid #ff523b;
+  height: 30px;
+  width: 280px;
+  transition: ease 0.5s;
+}
+.contact-no {
+  background-color: #ebebeb;
+  height: 2em;
+}
+
+.contact-no:hover {
+  border-bottom: 5px solid #ff523b;
+  height: 30px;
+  width: 280px;
+  transition: ease 0.5s;
+}
+.message {
+  background-color: #ebebeb;
+  overflow: hidden;
+  height: 8rem;
+}
+
+.message:hover {
+  border-bottom: 5px solid #ff523b;
+  height: 10em;
+  width: 280px;
+  transition: ease 0.5s;
+}
+
+.form p {
+    size: 23px;
+    color: #ff523b;
+}
+
+.submit {
+    width: 200px;
+    color: white;
+    background-color: #ff523b;
+    font-size: 20px;
+  }
+  
+  .submit:hover {
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+    transform: translateY(-3px);
+    width: 300px;
+    border-top: 5px solid #ff523b;
+    border-radius: 5%;
+  }
+  .formEntry {
+    display: block;
+    margin: 8px auto;
+    min-width: 300px;
+    /* padding: 10px; */
+    border-radius: 5px;
+    border: none;
+    transition: all 0.5s ease 0s;
+  }
+  @keyframes bounce {
+    0% {
+      tranform: translate(0, 4px);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+  } 
